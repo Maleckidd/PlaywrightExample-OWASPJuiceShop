@@ -190,12 +190,3 @@ Report includes:
 
 **QA Automation Engineer**: Maintaining E2E test suite
 **Framework**: Playwright + TypeScript
-
-## 📝 License
-
-ISC
-
----
-
-**Status**: ✅ Production Ready
-**Last Updated**: March 14, 2026
