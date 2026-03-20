@@ -1,0 +1,35 @@
+{
+  "envType": "development",
+  "baseURL": "http://localhost:3000",
+  "apiURL": "http://localhost:3000/api",
+  "users": {
+    "admin": {
+      "email": "admin@juice-sh.op",
+      "password": "admin123"
+    },
+    "regular": {
+      "email": "user@example.com",
+      "password": "userPassword123"
+    }
+  },
+  "testData": {
+    "products": [
+      {
+        "name": "Apple Juice",
+        "price": 1.99
+      },
+      {
+        "name": "Orange Juice",
+        "price": 2.49
+      },
+      {
+        "name": "Carrot Juice",
+        "price": 3.99
+      }
+    ],
+    "securityQuestions": [
+      "What's your favorite place to go hiking?",
+      "Your eldest child middle name?"
+    ]
+  }
+}

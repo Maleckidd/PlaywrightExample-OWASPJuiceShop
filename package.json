@@ -1,0 +1,26 @@
+{
+  "name": "playwright-owaspjuiceshop",
+  "version": "1.0.0",
+  "description": "Playwright E2E tests for OWASP Juice Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:serial": "playwright test --workers=1",
+    "test:repeat": "playwright test --repeat-each=2",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "e2e", "testing", "owasp", "juice-shop"],
+  "author": "QA Team",
+  "license": "ISC",
+  "description": "Playwright E2E tests for OWASP Juice Shop - migrated from Cypress",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "typescript": "^5.3.3"
+  }
+}
