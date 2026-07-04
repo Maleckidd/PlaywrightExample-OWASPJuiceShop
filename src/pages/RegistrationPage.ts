@@ -35,7 +35,7 @@ export class RegistrationPage extends BasePage {
     this.securityQuestionOptions = page.locator('mat-option[class*="mat-option"]');
     this.securityAnswerInput = page.locator('#securityAnswerControl');
     this.registerButton = page.locator('[aria-label="Button to complete the registration"]');
-    this.loginLink = page.locator('#alreadyACustomerLink');
+    this.loginLink = page.locator('#newCustomerLink a');
     this.headerBar = new HeaderBar(page);
     this.loginPage = new LoginPage(page);
     this.successMessage = page.locator('[class*="success"]');
